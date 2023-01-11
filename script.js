@@ -2,9 +2,9 @@
 var textArea = document.getElementById('evaluatedText');
 var count = document.getElementById('letterCount');
 
-textArea.addEventListener('keydown', function(){
+textArea.addEventListener('keyup', function(){
     let text = textArea.value;
-    // text = removeSpaces(text);
+    text = removeSpaces(text);
 
     count.innerText = text.length;
 })
