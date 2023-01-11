@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+
+body{
+    margin: 0px auto;
+}
+
+.main{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#evaluatedText{
+    /* margin: 0px auto; */
+    margin-top: 2rem;
+    width: 50%;
+    height: 1.5rem;
+}
+ h3{
+    text-align: center;
+ }
