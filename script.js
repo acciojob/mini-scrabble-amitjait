@@ -4,10 +4,10 @@ var count = document.getElementById('letterCount');
 
 textArea.addEventListener('keyup', function(){
     let text = textArea.value;
-    text = removeSpaces(text);
+    // text = removeSpaces(text);
 
     count.innerText = text.length;
 })
 
 
-function removeSpaces(string) { return string.split(' ').join(''); }
+// function removeSpaces(string) { return string.split(' ').join(''); }
