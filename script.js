@@ -4,7 +4,7 @@ var count = document.getElementById('letterCount');
 
 textArea.addEventListener('keydown', function(){
     let text = textArea.value;
-    text = removeSpaces(text);
+    // text = removeSpaces(text);
 
     count.innerText = text.length;
 })
